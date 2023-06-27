@@ -155,7 +155,7 @@ function getLocalStorage() {
 function removeFromLocalStorage(id) {
   let items = getLocalStorage();
 
-  items = items.filter(function (item) {
+  items = items.filter((item) => {
     if (item.id !== id) {
       return item;
     }
